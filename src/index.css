@@ -27,6 +27,7 @@ body {
 .trips-cards-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -40,27 +41,44 @@ body {
     border: 1px solid lightgray;
     margin: 0.4rem;
     padding: 0.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 350px;
 }
 
+.img-row {
+    margin: -0.6rem;
+}
 @media only screen and (max-width: 968px) {
     .trips-cards-wrap {
         grid-template-columns: none;
     }
 }
 
+.card-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
 .category {
     color: slategray;
-    font-size: 0.8rem;
-    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .card-text {
-    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
     font-weight: 800;
-    margin: 4px 0;
+    margin: 5px 0;
 }
 
+.card-row {
+    margin-bottom: 30px;
+}
 .card-copy {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 0.9rem;
     color: gray;
     letter-spacing: 0.6px;
@@ -75,7 +93,7 @@ body {
 }
 
 .img-row {
-    flex: 1;
+    flex: 2;
 }
 
 .nav-bar {
@@ -94,6 +112,6 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px 20px rgb(42, 143, 129);
     transform: rotate(-360deg);
-    border-radius:5px;
-    border:1px solid rgb(42, 143, 129);
+    border-radius: 5px;
+    border: 1px solid rgb(42, 143, 129);
 }
