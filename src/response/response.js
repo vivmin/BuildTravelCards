@@ -35,6 +35,15 @@
     "guests": 2,
     "category":"weekend break",
     "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis."
+  },
+  {
+    "name": "Celebration in New York",
+    "image": 'newyork.jpeg',
+    "dateFrom": "Dec 7th 2020",
+    "dateTo": "Dec 9th 2020",
+    "guests": 2,
+    "category":"celebration",
+    "copy": "Leverage agile frameworks to provide a robust synopsis for high level overviews."
   }
 ]
 
