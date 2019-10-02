@@ -26,7 +26,7 @@ function Trips() {
                 ))}
             </div>
             {nextTripsNum - newTripsNum < trips.length ? (
-                <button type="button" onClick={() => loadMoreTrips()}>
+                <button type="button" className="raise" onClick={() => loadMoreTrips()}>
                     Load More
                 </button>
             ) : (
