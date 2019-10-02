@@ -12,6 +12,7 @@ body {
 .header-wrap {
   border: 1px solid lightslategray;
   width: 100%;
+  height: 50px;
 }
 
 .trips-wrap {
