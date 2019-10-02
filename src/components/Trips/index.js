@@ -8,7 +8,7 @@ const newTripsNum = 6
 const initialNextTripsNum = initialTripsNum + newTripsNum
 
 function Trips() {
-    const [trips] = useState(response)
+    const trips = response
     const [shownTrips, setShownTrips] = useState(() => trips.slice(0, initialTripsNum))
     const [nextTripsNum, setNextTripNum] = useState(initialNextTripsNum)
 
@@ -26,7 +26,7 @@ function Trips() {
                 ))}
             </div>
             {nextTripsNum - newTripsNum < trips.length ? (
-                <button type="button" className="raise" onClick={() => loadMoreTrips()}>
+                <button type="button" className="raise" onClick={loadMoreTrips}>
                     Load More
                 </button>
             ) : (
