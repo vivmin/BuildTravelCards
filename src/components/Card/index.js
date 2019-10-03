@@ -2,7 +2,8 @@ import React from 'react'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
 
-const Card = ({props: {category, copy, dateFrom, dateTo, guests, image, name}}) => {
+const Card = ({ props }) => {
+    const { name, dateFrom, dateTo, guests, category, image, copy } = props
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
     const cardImage = require(`../../assets/${image}`)

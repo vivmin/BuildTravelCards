@@ -10,7 +10,7 @@ const newTripsNum = 6
 const initialNextTripsNum = initialTripsNum + newTripsNum
 
 function Trips() {
-    const [trips] = useState(response)
+    const trips = response
     const [shownTrips, setShownTrips] = useState(() => trips.slice(0, initialTripsNum))
     const [nextTripsNum, setNextTripNum] = useState(initialNextTripsNum)
 
