@@ -20,7 +20,7 @@ const Header = () => (
                     <a
                         className="nav-option"
                         href="https://github.com/s-Hale/BuildTravelCards"
-                        target="_blank">
+                    >
                         GitHub
                     </a>
                 </div>
