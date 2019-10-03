@@ -16,6 +16,14 @@ const Header = () => (
                 <div className="opt-wrapper">
                     <option className="nav-option">contact</option>
                 </div>
+                <div className="opt-wrapper">
+                    <a
+                        className="nav-option"
+                        href="https://github.com/s-Hale/BuildTravelCards"
+                        target="_blank">
+                        GitHub
+                    </a>
+                </div>
             </ul>
         </nav>
     </div>
