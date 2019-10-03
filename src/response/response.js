@@ -89,16 +89,6 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Decadent Week in Cape Town',
-        image: 'cape-town.jpg',
-        dateFrom: 'Oct 13th 2019',
-        dateTo: 'Oct 18th 2019',
-        guests: 4,
-        category: 'adventure',
-        copy:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    },
-    {
         name: 'Antwerpen',
         image: 'antwerpen.jpg',
         dateFrom: 'March 2nd 2020',
@@ -107,6 +97,15 @@ const response = [
         category: 'weekend trip',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+      name: 'Decadent Week in Cape Town',
+      image: 'cape-town.jpg',
+      dateFrom: 'Oct 13th 2019',
+      dateTo: 'Oct 18th 2019',
+      guests: 4,
+      category: 'adventure',
+      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
 
