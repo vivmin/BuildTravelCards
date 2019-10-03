@@ -13,8 +13,10 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "prettify": "prettier --write \"**/*.js\"",
-        "stylelint": "stylelint --fix '**/*.css'",
-        "precommit": "lint-staged"
+        "stylelint": "stylelint --fix '**/*.css'"
+    },
+    "husky": {
+        "hooks": "lint-staged"
     },
     "eslintConfig": {
         "extends": "react-app"
