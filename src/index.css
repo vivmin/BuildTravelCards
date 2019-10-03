@@ -12,6 +12,7 @@ body {
 .header-wrap {
     border: 1px solid lightslategray;
     width: 100%;
+    height: 50px;
 }
 
 .trips-wrap {
@@ -22,6 +23,9 @@ body {
 
 .heading {
     padding: 0 0.6rem;
+    text-shadow: 2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .trips-cards-wrap {
@@ -38,11 +42,15 @@ body {
 }
 
 .card-wrap {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid lightgray;
     margin: 0.4rem;
     padding: 0.6rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 350px;
+    width: 90%;
 }
 
 .img-row {
@@ -52,6 +60,9 @@ body {
     .trips-cards-wrap {
         grid-template-columns: none;
     }
+    .card-wrap {
+        margin: 1rem 0;
+    }
 }
 
 .card-name {
@@ -60,7 +71,6 @@ body {
     margin-bottom: 0;
 }
 .category {
-    color: slategray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.9rem;
     font-weight: bold;
@@ -72,7 +82,16 @@ body {
     font-size: 0.9rem;
     font-weight: 800;
     margin: 5px 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+    font-weight: 800;
 }
+
+.card-text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #222;
+    margin: 4px 0;
 
 .card-row {
     margin-bottom: 30px;
@@ -80,8 +99,9 @@ body {
 .card-copy {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9rem;
-    color: gray;
+    color: #222;
     letter-spacing: 0.6px;
+    line-height: 25px;
 }
 
 .date-row {
@@ -114,4 +134,10 @@ body {
     transform: rotate(-360deg);
     border-radius: 5px;
     border: 1px solid rgb(42, 143, 129);
+}
+
+.card-name {
+    color: #222;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }

@@ -6,6 +6,8 @@ Looking for a little more than just adding your name to the ReadMe? Contribute a
 
 *This is purely a playground for fun and practise. It is not a live project :)*
 
+#### Please merge any conflicts in your PRs
+
 ### Getting started
 
 Fork the repo, npm i, npm start.

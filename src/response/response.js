@@ -19,15 +19,6 @@ const response = [
         copy: 'Helvetica umami selvage. Locavore gluten-free tacos, small batch banh mi shoreditch.'
     },
     {
-        name: 'Family Day Out',
-        image: 'cliff.jpg',
-        dateFrom: 'Feb 12th 2020',
-        dateTo: 'Feb 15th 2020',
-        guests: 4,
-        category: 'family',
-        copy: 'Air plant tattooed schlitz pinterest heirloom. Knausgaard gastropub chartreuse.'
-    },
-    {
         name: 'Relaxing in Punta Cana',
         image: 'puntacana.jpg',
         dateFrom: 'Aug 7th 2020',
@@ -38,7 +29,7 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Weekend at an ice hotel',
+        name: 'Weekend at an Ice Hotel',
         image: 'icehotel.jpg',
         dateFrom: 'Jan 14th 2020',
         dateTo: 'Jan 16th 2020',
@@ -86,7 +77,17 @@ const response = [
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'A Weekend in Vancouver',
+        image: 'vancouver.jpg',
+        dateFrom: 'Oct 5st 2019',
+        dateTo: 'Oct 8st 2019',
+        guests: 2,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
 
-export default response;
+export default response
