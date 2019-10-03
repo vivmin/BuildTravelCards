@@ -87,7 +87,7 @@ const response = [
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    }
+    },
     {
         name: 'Falkland Islands',
         image: 'falklands.jpg',
