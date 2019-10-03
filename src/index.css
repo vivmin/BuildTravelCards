@@ -41,10 +41,11 @@ body {
 }
 
 .card-wrap {
-    margin: 1rem;
-    padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0;
     border: 1px solid lightgray;
+    padding: 0.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 420px;
     width: 90%;
 }
 
@@ -57,20 +58,33 @@ body {
     }
 }
 
+.card-name {
+    font-family: Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
 .category {
-    color: rgba(0, 0, 0, 0.5);
+    font-family: Verdana, sans-serif;
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1.1px;
+}
+
+.card-text {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8rem;
+    margin: 5px 0;
     font-size: 0.8rem;
     font-weight: 800;
 }
 
-.card-text {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #222;
-    margin: 4px 0;
+.card-row {
+    margin-bottom: 30px;
 }
-
 .card-copy {
+    font-family: Verdana, sans-serif;
     font-size: 0.9rem;
     color: #222;
     letter-spacing: 0.6px;
@@ -83,10 +97,6 @@ body {
 
 .image {
     width: 100%;
-}
-
-.img-row {
-    flex: 1;
 }
 
 .nav-bar {
@@ -107,10 +117,4 @@ body {
     transform: rotate(-360deg);
     border-radius: 5px;
     border: 1px solid rgb(42, 143, 129);
-}
-
-.card-name {
-    color: #222;
-    font-family: sans-serif;
-    letter-spacing: 1px;
 }
