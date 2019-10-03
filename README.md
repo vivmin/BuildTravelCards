@@ -7,6 +7,8 @@ Looking for a little more than just adding your name to the ReadMe? Contribute a
 *This is purely a playground for fun and practise. It is not a live project :)*
 
 #### Please merge any conflicts in your PRs
+#### Please don't do weird stuff like change all the fonts to Times New Roman, it is not 1996.
+#### Please check the code works before submitting.
 
 ### Getting started
 
