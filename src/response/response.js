@@ -16,7 +16,8 @@ const response = [
         dateTo: 'Oct 27th 2019',
         guests: 2,
         category: 'relaxing',
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
         name: 'Weekend in Vegas',
@@ -124,7 +125,8 @@ const response = [
         dateTo: 'Oct 22th 2019',
         guests: 4,
         category: 'family',
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
         name: 'The Atlanta Experience',
@@ -134,7 +136,7 @@ const response = [
         guests: 2,
         category: 'long weekend',
         copy:
-            'Enjoy one the greatest gems of the south, Atlanta, GA, for a spooky Halloween weekend.',
+            'Enjoy one the greatest gems of the south, Atlanta, GA, for a spooky Halloween weekend.'
     },
     {
         name: 'Sculpture Park',
@@ -145,8 +147,17 @@ const response = [
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Meeting Ancestors at Serra da Capivara National Park',
+        image: 'serraDaCapivara.jpg',
+        dateFrom: 'Oct 16th 2019',
+        dateTo: 'Oct 30th 2019',
+        guests: 4,
+        category: 'World Heritage Site',
+        copy:
+            'Meet the largest and oldest concentration of prehistoric sites in the Americas. Sítio do Meio has many prehistoric paintings.'
     }
-
 ]
 
 export default response
