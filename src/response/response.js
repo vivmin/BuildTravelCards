@@ -109,6 +109,25 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
+      name: 'Decadent Week in Cape Town',
+      image: 'cape-town.jpg',
+      dateFrom: 'Oct 13th 2019',
+      dateTo: 'Oct 18th 2019',
+      guests: 4,
+      category: 'adventure',
+      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+
+    },
+    {
+      name: 'The Atlanta Experience',
+      image: 'atlanta.jpg',
+      dateFrom: 'Oct 24th 2019',
+      dateTo: 'Oct 27th 2019',
+      guests: 2,
+      category: 'long weekend',
+      copy:
+          'Enjoy one the greatest gems of the south, Atlanta, GA, for a spooky Halloween weekend.',
+  },
         name: 'Sculpture park',
         image: 'sculpturePark.jpg',
         dateFrom: 'Oct 27th 2019',
