@@ -6,7 +6,9 @@ const Card = ({ props }) => {
     const { name, dateFrom, dateTo, guests, category, image, copy } = props
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
-    const cardImage = require(`../../assets/${image}`)
+
+    const cardImage = image ? require(`../../assets/${image}`) : '';
+
 
     return (
         <div className="card-wrap">
