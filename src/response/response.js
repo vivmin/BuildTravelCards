@@ -1,4 +1,3 @@
-
 const response = [
     {
         name: 'Weekend in Vegas',
@@ -90,12 +89,12 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Falkland Islands',
-        image: 'falklands.jpg',
-        dateFrom: 'Dec 7st 2019',
-        dateTo: 'Dec 12st 2019',
-        guests: 1,
-        category: 'family',
+        name: 'Antwerpen',
+        image: 'antwerpen.jpg',
+        dateFrom: 'March 2nd 2020',
+        dateTo: 'March 4th 2020',
+        guests: 2,
+        category: 'weekend trip',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
