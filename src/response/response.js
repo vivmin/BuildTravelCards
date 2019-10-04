@@ -1,4 +1,23 @@
 const response = [
+      {
+        name: 'Decadent Week in Cape Town',
+        image: 'cape-town.jpg',
+        dateFrom: 'Oct 13th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+      name: 'Relax in Maui',
+      image: 'Maui-Beaches.jpg',
+      dateFrom: 'Oct 25th 2019',
+      dateTo: 'Oct 27th 2019',
+      guests: 2,
+      category: 'relaxing',
+      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
     {
         name: 'Weekend in Vegas',
         image: 'vegas.jpg',
@@ -99,26 +118,7 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Decadent Week in Cape Town',
-        image: 'cape-town.jpg',
-        dateFrom: 'Oct 13th 2019',
-        dateTo: 'Oct 18th 2019',
-        guests: 4,
-        category: 'adventure',
-        copy:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    },
-    {
-        name: 'Decadent Week in Cape Town',
-        image: 'cape-town.jpg',
-        dateFrom: 'Oct 13th 2019',
-        dateTo: 'Oct 18th 2019',
-        guests: 4,
-        category: 'adventure',
-        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    },
-    {
-        name: ' Amazing week in Bali',
+        name: ' Amazing Week in Bali',
         image: 'bali.jpg',
         dateFrom: 'Oct 16th 2019',
         dateTo: 'Oct 22th 2019',
@@ -137,7 +137,7 @@ const response = [
             'Enjoy one the greatest gems of the south, Atlanta, GA, for a spooky Halloween weekend.',
     },
     {
-        name: 'Sculpture park',
+        name: 'Sculpture Park',
         image: 'sculpturePark.jpg',
         dateFrom: 'Oct 27th 2019',
         dateTo: 'Spt 03th 2019',
