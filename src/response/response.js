@@ -1,5 +1,5 @@
 const response = [
-      {
+    {
         name: 'Decadent Week in Cape Town',
         image: 'cape-town.jpg',
         dateFrom: 'Oct 13th 2019',
@@ -10,13 +10,13 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-      name: 'Relax in Maui',
-      image: 'Maui-Beaches.jpg',
-      dateFrom: 'Oct 25th 2019',
-      dateTo: 'Oct 27th 2019',
-      guests: 2,
-      category: 'relaxing',
-      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+        name: 'Relax in Maui',
+        image: 'bali.jpg',
+        dateFrom: 'Oct 25th 2019',
+        dateTo: 'Oct 27th 2019',
+        guests: 2,
+        category: 'relaxing',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
         name: 'Weekend in Vegas',
