@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import response from '../../response/response'
+import Badge from '../Badge'
+import Button from '../Button'
 import Card from '../Card'
 import './trips.css'
 
@@ -17,22 +19,20 @@ function Trips() {
         setNextTripNum(prevLast => prevLast + newTripsNum)
     }
 
+    const showButton = nextTripsNum - newTripsNum < trips.length
+
     return (
         <div className="trips-wrap">
-            <h4 className="heading">view latest trips</h4>
+            <div className="trips-header">
+                <div className="trips-title">View latest trips</div>
+                <Badge label={nextTripsNum} />
+            </div>
             <div className="trips-cards-wrap">
                 {shownTrips.map(trip => (
                     <Card key={trip.name} props={trip} />
                 ))}
             </div>
-            {nextTripsNum - newTripsNum < trips.length ? (
-                <button type="button" className="raise" onClick={loadMoreTrips}>
-                    Load More
-                </button>
-            ) : (
-                ''
-            )}
-            <div>{nextTripsNum}</div>
+            {showButton && <Button label="Load More" onClick={loadMoreTrips} />}
         </div>
     )
 }
