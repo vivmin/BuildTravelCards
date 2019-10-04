@@ -31,8 +31,21 @@ body {
 .trips-cards-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 968px) and (min-width: 641px) {
+    .trips-cards-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .trips-cards-wrap {
+        grid-template-columns: none;
+    }
+}
 @media only screen and (max-width: 640px) {
     .trips-wrap {
         align-items: center;
@@ -41,18 +54,12 @@ body {
 }
 
 .card-wrap {
-    margin: 1rem 0;
     border: 1px solid lightgray;
     padding: 0.6rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 420px;
-    width: 90%;
 }
 
 @media only screen and (max-width: 968px) {
-    .trips-cards-wrap {
-        grid-template-columns: none;
-    }
     .card-wrap {
         margin: 1rem 0;
     }
