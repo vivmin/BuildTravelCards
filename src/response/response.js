@@ -1,5 +1,23 @@
-
 const response = [
+    {
+        name: 'Decadent Week in Cape Town',
+        image: 'cape-town.jpg',
+        dateFrom: 'Oct 13th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Relax in Maui',
+        image: 'bali.jpg',
+        dateFrom: 'Oct 25th 2019',
+        dateTo: 'Oct 27th 2019',
+        guests: 2,
+        category: 'relaxing',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
     {
         name: 'Weekend in Vegas',
         image: 'vegas.jpg',
@@ -90,12 +108,12 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Falkland Islands',
-        image: 'falklands.jpg',
-        dateFrom: 'Dec 7st 2019',
-        dateTo: 'Dec 12st 2019',
-        guests: 1,
-        category: 'family',
+        name: 'Antwerpen',
+        image: 'antwerpen.jpg',
+        dateFrom: 'March 2nd 2020',
+        dateTo: 'March 4th 2020',
+        guests: 2,
+        category: 'weekend trip',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
@@ -116,7 +134,37 @@ const response = [
       guests: 3,
       category: 'family, weekend break',
       copy: 'Take a Duck Boat ride, shop at Faneuil Hall, or maybe hit up a Bruins game.'
+    },
+    {
+        name: ' Amazing Week in Bali',
+        image: 'bali.jpg',
+        dateFrom: 'Oct 16th 2019',
+        dateTo: 'Oct 22th 2019',
+        guests: 4,
+        category: 'family',
+        copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'The Atlanta Experience',
+        image: 'atlanta.jpg',
+        dateFrom: 'Oct 24th 2019',
+        dateTo: 'Oct 27th 2019',
+        guests: 2,
+        category: 'long weekend',
+        copy:
+            'Enjoy one the greatest gems of the south, Atlanta, GA, for a spooky Halloween weekend.',
+    },
+    {
+        name: 'Sculpture Park',
+        image: 'sculpturePark.jpg',
+        dateFrom: 'Oct 27th 2019',
+        dateTo: 'Spt 03th 2019',
+        guests: 1,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
+
 ]
 
 export default response
