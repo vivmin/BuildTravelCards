@@ -43,7 +43,7 @@ body {
 
 @media only screen and (max-width: 640px) {
     .trips-cards-wrap {
-        grid-template-columns: none;
+        grid-template-columns: 1fr;
     }
 }
 @media only screen and (max-width: 640px) {
