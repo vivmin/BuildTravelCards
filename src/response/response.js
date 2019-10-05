@@ -157,6 +157,16 @@ const response = [
         category: 'World Heritage Site',
         copy:
             'Meet the largest and oldest concentration of prehistoric sites in the Americas. Sítio do Meio has many prehistoric paintings.'
+    },
+    {
+        name: 'Legoland Germany',
+        image: 'legoland.jpg',
+        dateFrom: 'Oct 06th 2019',
+        dateTo: 'Oct 20th 2019',
+        guests: 4,
+        category: 'family',
+        copy:
+            'Teamwork of the whole family is required – this is the only chance to frustrate the plans of the villainous pharaoh…'
     }
 ]
 
