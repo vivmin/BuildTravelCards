@@ -7,8 +7,7 @@ const Card = ({ props }) => {
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
 
-    const cardImage = image ? require(`../../assets/${image}`) : '';
-
+    const cardImage = require(`../../assets/${!image ? 'default-image.jpg' : image}`);
 
     return (
         <div className="card-wrap">
