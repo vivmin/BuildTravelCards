@@ -157,6 +157,16 @@ const response = [
         category: 'World Heritage Site',
         copy:
             'Meet the largest and oldest concentration of prehistoric sites in the Americas. Sítio do Meio has many prehistoric paintings.'
+    },
+    {
+        name: 'Tettegouche State Park',
+        image: 'tettegouche.jpg',
+        dateFrom: 'Sept 28th 2019',
+        dateTo: 'Sept 28th 2019',
+        guests: 1,
+        category: 'State Park',
+        copy:
+            'Tettegouche State park has spectacular views for hikers. It is also well known for rock climbing, ang quality bird watching during spring summer, and fall.'
     }
 ]
 
