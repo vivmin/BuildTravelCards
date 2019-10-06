@@ -1,16 +1,40 @@
-import React from 'react';
+import React, {useState} from 'react'
 import response from '../../response/response'
+import Badge from '../Badge'
+import Button from '../Button'
 import Card from '../Card'
+import './trips.css'
 
-const Trips = () => 
+const initialTripsNum = 6
+const newTripsNum = 6
+const initialNextTripsNum = initialTripsNum + newTripsNum
 
-<div className='trips-wrap'>
-  <h4 className='heading'>view latest trips</h4>
-  <div className='trips-cards-wrap'>
-    {response.map(trip => <Card props={trip}/>)}
-  </div>
-</div>;
+function Trips() {
+    const trips = response
+    const [shownTrips, setShownTrips] = useState(() => trips.slice(0, initialTripsNum))
+    const [nextTripsNum, setNextTripNum] = useState(initialNextTripsNum)
 
+    async function loadMoreTrips() {
+        setShownTrips(trips.slice(0, nextTripsNum))
+        setNextTripNum(prevLast => prevLast + newTripsNum)
+    }
 
+    const showButton = nextTripsNum - newTripsNum < trips.length
 
-export default Trips;
+    return (
+        <div className="trips-wrap">
+            <div className="trips-header">
+                <div className="trips-title">View latest trips</div>
+                <Badge label={nextTripsNum} />
+            </div>
+            <div className="trips-cards-wrap">
+                {shownTrips.map(trip => (
+                    <Card key={trip.name} props={trip} />
+                ))}
+            </div>
+            {showButton && <Button label="Load More" onClick={loadMoreTrips} />}
+        </div>
+    )
+}
+
+export default Trips

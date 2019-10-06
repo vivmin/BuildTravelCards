@@ -2,13 +2,21 @@
 
 ## Hacktoberfest 2019
 
-Looking for a little more than just adding your name to the ReadMe? Contribute a little or a lot, depending on your skill level and challenge you're seeking, to crowd-build a basic trips and travel site.
+Looking for a little more than just adding your name to the ReadMe? Contribute a little or a lot, depending on your skill level and challenge you're seeking, to crowd-build the front-end of a basic trips and travel site. Add useful features and components, improve the styling, practise your React and maybe test out that library you always wanted to try.
+
+*This is purely a playground for fun and practise. It is not a live project :)*
+
+#### Please merge any conflicts in your PRs
+#### Please don't do weird stuff like change all the fonts to Times New Roman, it is not 1996.
+#### Please check the code works before submitting.
 
 ### Getting started
 
 Fork the repo, npm i, npm start.
 
 It's pretty basic! But that's OK. There's plenty to do. Feel free to simply PR the things you'd like to do, or create an issue first.
+
+*Remember to check your PRs and resolve any conflicts! Merging in master should do the trick.*
 
 ### Add a new trip
 
