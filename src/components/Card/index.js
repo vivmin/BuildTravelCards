@@ -1,7 +1,6 @@
 import React from 'react'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
-import { format, parseISO } from 'date-fns'
 
 const Card = ({ props }) => {
     const { name, dateFrom, dateTo, guests, category, image, copy } = props
@@ -16,7 +15,7 @@ const Card = ({ props }) => {
             <div className="card-content-wrap">
                 <h2 className="card-name">{name}</h2>
                 <p className="card-date">
-                    {format(parseISO(dateFrom), 'MMM do yyyy')} - {format(parseISO(dateTo), 'MMM do yyyy')}
+                    {dateFrom} - {dateTo}
                 </p>
                 <p className="card-copy">{copy}</p>
                 <div className="card-bottom-wrap">
