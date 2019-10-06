@@ -107,6 +107,24 @@ const response = [{
         copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
+      name: 'Decadent Week in Cape Town',
+      image: 'cape-town.jpg',
+      dateFrom: 'Oct 13th 2019',
+      dateTo: 'Oct 18th 2019',
+      guests: 4,
+      category: 'adventure',
+      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+      name: 'A Weekend in Boston',
+      image: 'boston.jpg',
+      dateFrom: 'Oct 4th 2019',
+      dateTo: 'Oct 6th 2019',
+      guests: 3,
+      category: 'family, weekend break',
+      copy: 'Take a Duck Boat ride, shop at Faneuil Hall, or maybe hit up a Bruins game.'
+    },
+    {
         name: ' Amazing Week in Bali',
         image: 'bali.jpg',
         dateFrom: 'Oct 16th 2019',
