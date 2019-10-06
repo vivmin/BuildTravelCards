@@ -214,7 +214,17 @@ const response = [{
         guests: 1,
         category: 'State Park',
         copy:
-            'Tettegouche State park has spectacular views for hikers. It is also well known for rock climbing, ang quality bird watching during spring summer, and fall.'
+            'Meet the largest and oldest concentration of prehistoric sites in the Americas. Sítio do Meio has many prehistoric paintings.'
+    },
+    {
+        name: 'Vacay in Mauritius',
+        image: 'mauritius.jpg',
+        dateFrom: 'Oct 13th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
     }
 ]
 
