@@ -157,6 +157,16 @@ const response = [
         category: 'World Heritage Site',
         copy:
             'Meet the largest and oldest concentration of prehistoric sites in the Americas. Sítio do Meio has many prehistoric paintings.'
+    },
+    {
+        name: 'Meeting Florianopolis',
+        image: 'florianopolis.jpg',
+        dateFrom: 'Oct 16th 2019',
+        dateTo: 'Oct 30th 2019',
+        guests: 4,
+        category: 'weekend trip',
+        copy:
+            'is the capital and second largest city of the state of Santa Catarina, in the South region of Brazil. The city encompasses Santa Catarina Island and surrounding small islands, as well as part of the mainland'
     }
 ]
 
