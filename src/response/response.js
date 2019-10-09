@@ -294,16 +294,6 @@ const response = [
         category: 'weekend break',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    },
-    {
-        name: 'Week in Buenos Aires',
-        image: 'buenosAires.jpeg',
-        dateFrom: 'Oct 20th 2019',
-        dateTo: 'Oct 27th 2019',
-        guests: 4,
-        category: 'family',
-        copy:
-            'Argentina\'s capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants.'
     }
 ]
 
