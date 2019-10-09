@@ -314,7 +314,17 @@ const response = [
         category: 'family',
         copy:
             'Argentina\'s capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants.'   
-    }
+    },
+    {
+        name: 'Trecking in Kasol',
+        image: 'trek.jpg',
+        dateFrom: 'Oct 24th 2019',
+        dateTo: 'Oct 26th 2019',
+        guests: 5,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
 ]
 
 export default response
