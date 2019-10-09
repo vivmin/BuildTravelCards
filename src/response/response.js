@@ -265,6 +265,7 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
+
         name: 'Japan Adventure',
         image: 'japan.jpg',
         dateFrom: 'Oct 8th 2019',
@@ -273,6 +274,46 @@ const response = [
         category: 'Adventure',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+  {
+        name: 'Tourism in Kaziranga National PARK',
+        image: 'kaziranga.jpg',
+        dateFrom: 'Oct 10th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'Tourism',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Meeting Florianopolis',
+        image: 'florianopolis.jpg',
+        dateFrom: 'Oct 16th 2019',
+        dateTo: 'Oct 30th 2019',
+        guests: 4,
+        category: 'weekend trip',
+        copy:
+            'is the capital and second largest city of the state of Santa Catarina, in the South region of Brazil. The city encompasses Santa Catarina Island and surrounding small islands, as well as part of the mainland'
+    },
+    {
+        name: 'Weekend in Moscow',
+        image: 'moscow.jpg',
+        dateFrom: 'Oct 18th 2019',
+        dateTo: 'Oct 21th 2019',
+        guests: 2,
+        category: 'weekend break',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
+    },
+    {
+        name: 'Week in Buenos Aires',
+        image: 'buenosAires.jpeg',
+        dateFrom: 'Oct 20th 2019',
+        dateTo: 'Oct 27th 2019',
+        guests: 4,
+        category: 'family',
+        copy:
+            'Argentina\'s capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants.'   
     }
 ]
 
