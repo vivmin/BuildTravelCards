@@ -1,5 +1,5 @@
 import React from 'react'
-import '../src/index.css'
+import './index.css'
 import Header from './components/Header'
 import Trips from './components/Trips'
 
