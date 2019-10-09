@@ -243,6 +243,16 @@ const response = [{
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
+    },
+    {
+        name: 'Weekend in Moscow',
+        image: 'moscow.jpg',
+        dateFrom: 'Oct 18th 2019',
+        dateTo: 'Oct 21th 2019',
+        guests: 2,
+        category: 'weekend break',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
     }
 ]
 
