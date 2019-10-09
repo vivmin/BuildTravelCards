@@ -293,6 +293,16 @@ const response = [
         guests: 2,
         category: 'weekend break',
         copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
+    },
+    {
+        name: 'Trecking in Kasol',
+        image: 'trek.jpg',
+        dateFrom: 'Oct 24th 2019',
+        dateTo: 'Oct 26th 2019',
+        guests: 5,
+        category: 'adventure',
+        copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
