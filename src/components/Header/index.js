@@ -1,13 +1,16 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 
 const Header = () => {
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const scrollPosition = window.pageYOffset
-            if (scrollPosition > 5) {
-                document.querySelector('.header-wrap').classList.add('header-shrink')
-            } else {
-                document.querySelector('.header-wrap').classList.remove('header-shrink')
+            const headerWrapper = document.querySelector('.header-wrap');
+            if (headerWrapper) {
+                if (scrollPosition > 5) {
+                    headerWrapper.classList.add('header-shrink')
+                } else {
+                    headerWrapper.classList.remove('header-shrink')
+                }
             }
         })
     })
