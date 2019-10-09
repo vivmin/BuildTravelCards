@@ -243,7 +243,6 @@ const response = [{
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
-
     },
     {
         name: 'Meeting Florianopolis',
@@ -254,6 +253,16 @@ const response = [{
         category: 'weekend trip',
         copy:
             'is the capital and second largest city of the state of Santa Catarina, in the South region of Brazil. The city encompasses Santa Catarina Island and surrounding small islands, as well as part of the mainland'
+    },
+    {
+        name: 'Weekend in Moscow',
+        image: 'moscow.jpg',
+        dateFrom: 'Oct 18th 2019',
+        dateTo: 'Oct 21th 2019',
+        guests: 2,
+        category: 'weekend break',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'   
     }
 ]
 
