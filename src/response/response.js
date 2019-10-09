@@ -304,6 +304,16 @@ const response = [
         category: 'adventure',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Spa Day at the Blue Lagoon in Iceland',
+        image: 'iceland.jpg',
+        dateFrom: 'Oct 3rd 2020',
+        dateTo: 'Oct 10th 2020',
+        guests: 4,
+        category: 'family',
+        copy:
+            'One of 25 wonders of the world: The Blue Lagoon is unique and relaxing environment. The waters and natural silica mud are very beneficial to the skin, and the lagoon location is truly stunning. If you are feeling indulgent, then you can treat yourself to a relaxing massage in the spa center.'
     }
 ]
 
