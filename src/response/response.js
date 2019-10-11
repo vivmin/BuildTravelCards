@@ -276,6 +276,16 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
+        name: 'Tourism in Kaziranga National PARK',
+        image: 'kaziranga.jpg',
+        dateFrom: 'Oct 10th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'Tourism',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
         name: 'Meeting Florianopolis',
         image: 'florianopolis.jpg',
         dateFrom: 'Oct 16th 2019',
@@ -323,7 +333,17 @@ const response = [
         guests: 4,
         category: 'family',
         copy:
-            'One of 25 wonders of the world: The Blue Lagoon is unique and relaxing environment. The waters and natural silica mud are very beneficial to the skin, and the lagoon location is truly stunning. If you are feeling indulgent, then you can treat yourself to a relaxing massage in the spa center.'
+            'Argentina\'s capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants.'
+    },
+    {
+        name: 'Weeked in Japan',
+        image: 'shirakawago.jpg',
+        dateFrom: 'Dec 28th 2019',
+        dateTo: 'Jan 2th 2020',
+        guests: 5,
+        category: 'family',
+        copy:
+            'Shirakawa is a mountain village located in far northern Gifu Prefecture, bordering Ishikawa Prefecture and Toyama Prefecture on the Ryōhaku Mountains.'
     }
 ]
 
