@@ -7,11 +7,19 @@ const Card = ({ props }) => {
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
 
-    const cardImage = require(`../../assets/${!image ? 'default-image.jpg' : image}`);
+    function importImage(loadimage) {
+        let cardImage;
+        try {
+            cardImage = require(`../../assets/${loadimage}`);
+        } catch (err) {
+            cardImage = require(`../../assets/default-image.jpg`);
+        }
+        return cardImage;
+    }
 
     return (
         <div className="card-wrap">
-            <img className="card-image" src={cardImage} alt={getImageName(image)} />
+            <img className="card-image" src={importImage(image)} alt={getImageName(image)} />
             <div className="card-content-wrap">
                 <h2 className="card-name">{name}</h2>
                 <p className="card-date">
