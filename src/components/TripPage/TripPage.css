@@ -1,0 +1,10 @@
+.trip-thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.trip-category {
+    text-transform: uppercase;
+}
