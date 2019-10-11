@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
 
-const Card = ({props}) => {
-    const {name, dateFrom, dateTo, guests, category, image, copy} = props
+const Card = ({trip, id}) => {
+    const {name, dateFrom, dateTo, guests, category, image, copy} = trip
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
 
@@ -20,11 +20,13 @@ const Card = ({props}) => {
 
     return (
         <div className="card-wrap">
-            <Link to={{pathname: `/trip/${name}`, state: {trip: props}}}>
+            <Link to={`/trip/${id}/${name}`}>
                 <img className="card-image" src={importImage(image)} alt={getImageName(image)} />
             </Link>
             <div className="card-content-wrap">
-                <h2 className="card-name">{name}</h2>
+                <Link to={`/trip/${id}/${name}`}>
+                    <h2 className="card-name">{name}</h2>
+                </Link>
                 <p className="card-date">
                     {dateFrom} - {dateTo}
                 </p>

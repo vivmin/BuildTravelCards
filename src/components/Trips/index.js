@@ -28,8 +28,8 @@ function Trips() {
                 <Badge label={nextTripsNum} />
             </div>
             <div className="trips-cards-wrap">
-                {shownTrips.map(trip => (
-                    <Card key={trip.name} props={trip} />
+                {shownTrips.map((trip, idx) => (
+                    <Card key={trip.name} trip={trip} id={idx} />
                 ))}
             </div>
             {showButton && <Button label="Load More" onClick={loadMoreTrips} />}

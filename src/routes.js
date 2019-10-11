@@ -21,7 +21,7 @@ export default function src() {
                 <Route path="/explore" component={Explore} />
                 <Route path="/faqs" component={Faqs} />
                 <Route path="/contact" component={Contact} />
-                <Route path="/trip/:trip" component={TripPage} />
+                <Route path="/trip/:id" component={TripPage} />
             </Switch>
         </>
     )
