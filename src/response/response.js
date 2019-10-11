@@ -306,10 +306,30 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Week in Buenos Aires',
-        image: 'buenosAires.jpeg',
-        dateFrom: 'Oct 20th 2019',
-        dateTo: 'Oct 27th 2019',
+        name: 'Weekend in Mon Cham',
+        image: 'moncham.jpg',
+        dateFrom: 'Nov 14th 2019',
+        dateTo: 'Nov 16th 2019',
+        guests: 5,
+        category: 'weekend trip',
+        copy:
+            'Mon Cham sits on top of a small mountain'
+    },
+    {
+        name: 'Trecking in Kasol',
+        image: 'trek.jpg',
+        dateFrom: 'Oct 24th 2019',
+        dateTo: 'Oct 26th 2019',
+        guests: 5,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Spa Day at the Blue Lagoon in Iceland',
+        image: 'iceland.jpg',
+        dateFrom: 'Oct 3rd 2020',
+        dateTo: 'Oct 10th 2020',
         guests: 4,
         category: 'family',
         copy:

@@ -1,13 +1,16 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom';
+
+import Routes from './routes';
+
 import './index.css'
-import Header from './components/Header'
-import Trips from './components/Trips'
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <Trips />
+            <BrowserRouter>
+                <Routes />
+            </BrowserRouter>
         </div>
     )
 }
