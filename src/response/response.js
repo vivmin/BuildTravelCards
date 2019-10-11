@@ -276,16 +276,6 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-        name: 'Tourism in Kaziranga National PARK',
-        image: 'kaziranga.jpg',
-        dateFrom: 'Oct 10th 2019',
-        dateTo: 'Oct 18th 2019',
-        guests: 4,
-        category: 'Tourism',
-        copy:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
-    },
-    {
         name: 'Meeting Florianopolis',
         image: 'florianopolis.jpg',
         dateFrom: 'Oct 16th 2019',
