@@ -335,6 +335,16 @@ const response = [
         copy:
             'Shirakawa is a mountain village located in far northern Gifu Prefecture, bordering Ishikawa Prefecture and Toyama Prefecture on the Ryōhaku Mountains.'
     }
+    {
+      name: 'A Week In Cancun',
+      image: 'Cancun.jpg',
+      dateFrom: 'May 1nd 2020',
+      dateTo: 'May 7th 2020',
+      guests: 2,
+      category: 'adventure',
+      copy:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    }
 ]
 
 export default response
