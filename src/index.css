@@ -168,7 +168,7 @@ body {
     color: rgba(0, 0, 0, 0.54);
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 740px) {
     .trips-cards-wrap {
         grid-template-columns: none;
     }
@@ -209,6 +209,35 @@ a.nav-option {
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 710px) {
+    .opt-wrapper {
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .opt-wrapper {
+        margin: 0 8px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .opt-wrapper {
+        margin: 0 2px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .nav-option {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .nav-option {
+        margin: 0px;
+        font-size: 12px;
+    }
+}
+
 /* Badge */
 .badge {
     background: linear-gradient(45deg, #2193b0, #6dd5ed);
@@ -225,15 +254,15 @@ a.nav-option {
 /* Button */
 .button {
     border: 2px solid #f44336;
-    height: 5vh;
-    width: 10vw;
+    height: 7vh;
+    width: 12vw;
     text-transform: uppercase;
     text-align: center;
     background: none;
     align-self: center;
     cursor: pointer;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     color: #f44336;
     font-size: 14px;
     font-weight: 400;
@@ -251,4 +280,21 @@ a.nav-option {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 887px) {
+    .button {
+        height: 9vh;
+        width: 14vw;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .button {
+        width: 20vw;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .button {
+        width: 25vw;
+    }
 }

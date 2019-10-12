@@ -24,8 +24,11 @@ function Trips() {
     return (
         <div className="trips-wrap">
             <div className="trips-header">
-                <div className="trips-title">View latest trips</div>
-                <Badge label={nextTripsNum} />
+                <div className="trips-header--text">
+                    <div className="trips-title">View Latest Trips</div>
+                    <Badge label={nextTripsNum} />
+                </div>
+                <input className="trips-search" type="text" placeholder="Search a Trip" />
             </div>
             <div className="trips-cards-wrap">
                 {shownTrips.map(trip => (
