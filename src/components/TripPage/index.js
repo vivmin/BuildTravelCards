@@ -11,6 +11,7 @@ function TripPage({match, history}) {
     const {name, dateFrom, dateTo, guests, category, image, copy} = trip
 
     useEffect(() => {
+        window.scrollTo(0, 0)
         setTrip(response[id])
         history.push(`/trip/${id}/${name}`)
     }, [id, name, trip, history])
