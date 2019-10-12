@@ -26,8 +26,6 @@ function Trips() {
         setFilterData(e.target.value)
     }
 
-    console.log(filterData)
-
     return (
         <div className="trips-wrap">
             <div className="trips-header">
