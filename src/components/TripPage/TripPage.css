@@ -1,8 +1,71 @@
+.back-link-arrow {
+    padding: 0;
+    width: 50px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.trip-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.trip-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .trip-thumbnail {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.trip-name {
+    text-align: center;
+}
+
+.trip-descriptors {
+    display: inherit;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+@media screen and (min-width: 450px) {
+    .trip-descriptors {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.descriptor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-calendar {
+    height: 25px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.trip-dates {
+    text-align: center;
+}
+
+.trip-text {
+    grid-column: auto;
+    text-align: left;
+}
+
+@media screen and (min-width: 450px) {
+    .trip-text {
+        grid-column: 1/4;
+    }
 }
 
 .trip-category {
