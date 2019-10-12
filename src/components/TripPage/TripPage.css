@@ -1,11 +1,5 @@
-.back-link-arrow {
-    padding: 0;
-    width: 50px;
-    font-size: 50px;
-    text-decoration: none;
-}
-
 .trip-grid-container {
+    margin: 7rem 0;
     display: grid;
     grid-template-columns: 1fr;
 }

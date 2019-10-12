@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
 import response from '../../response/response'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
@@ -27,37 +26,32 @@ function TripPage({match, history}) {
     }
 
     return (
-        <div>
-            <Link className="back-link-arrow" to="/">
-                ⬅
-            </Link>
-            <div className="trip-grid-container">
-                <div className="trip-header">
-                    <img
-                        className="trip-thumbnail"
-                        src={importImage(image)}
-                        alt={image ? getImageName(image) : name}></img>
-                    <h2 className="trip-name">{name}</h2>
+        <div className="trip-grid-container">
+            <div className="trip-header">
+                <img
+                    className="trip-thumbnail"
+                    src={importImage(image)}
+                    alt={image ? getImageName(image) : name}></img>
+                <h2 className="trip-name">{name}</h2>
+            </div>
+            <div className="trip-descriptors">
+                <div className="descriptor">
+                    <Guests amount={guests} />
                 </div>
-                <div className="trip-descriptors">
-                    <div className="descriptor">
-                        <Guests amount={guests} />
-                    </div>
-                    <div className="descriptor">
-                        <img
-                            className="icon-calendar"
-                            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Calendar_icon_2.svg"
-                            alt="calendar"></img>
-                        <p class="trip-dates">
-                            {dateFrom} - {dateTo}
-                        </p>
-                    </div>
-                    <div className="descriptor">
-                        <span className="trip-category">{category}</span>
-                    </div>
-                    <div className="trip-text descriptor">
-                        <p>{copy}</p>
-                    </div>
+                <div className="descriptor">
+                    <img
+                        className="icon-calendar"
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Calendar_icon_2.svg"
+                        alt="calendar"></img>
+                    <p className="trip-dates">
+                        {dateFrom} - {dateTo}
+                    </p>
+                </div>
+                <div className="descriptor">
+                    <span className="trip-category">{category}</span>
+                </div>
+                <div className="trip-text descriptor">
+                    <p>{copy}</p>
                 </div>
             </div>
         </div>
