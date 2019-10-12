@@ -51,9 +51,26 @@ function TripPage({match, history}) {
                 <div className="descriptor">
                     <span className="trip-category">{category}</span>
                 </div>
+            </div>
+            <div className="trip-board">
                 <div className="trip-text descriptor">
-                    <p>{copy}</p>
+                    <p className="descriptor">{copy}</p>
                 </div>
+                <img
+                    id="placeholder-1"
+                    className="trip-board-image"
+                    src={importImage('default-image.jpg')}
+                    alt={image ? getImageName(image) : name}></img>
+                <img
+                    id="placeholder-2"
+                    className="trip-board-image"
+                    src={importImage('default-image.jpg')}
+                    alt={image ? getImageName(image) : name}></img>
+                <img
+                    id="placeholder-3"
+                    className="trip-board-image"
+                    src={importImage('default-image.jpg')}
+                    alt={image ? getImageName(image) : name}></img>
             </div>
         </div>
     )

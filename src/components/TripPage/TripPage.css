@@ -1,5 +1,5 @@
 .trip-grid-container {
-    margin: 7rem 0;
+    margin: 3rem 4rem;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -26,12 +26,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
+    margin: 2rem 0;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 560px) {
     .trip-descriptors {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
 }
 
@@ -40,28 +41,68 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 4px;
 }
 
 .icon-calendar {
     height: 25px;
-    color: rgba(0, 0, 0, 0.54);
 }
 
 .trip-dates {
     text-align: center;
 }
 
-.trip-text {
-    grid-column: auto;
-    text-align: left;
-}
-
-@media screen and (min-width: 450px) {
-    .trip-text {
-        grid-column: 1/4;
-    }
+@media screen and (min-width: 560px) {
 }
 
 .trip-category {
     text-transform: uppercase;
+}
+
+.trip-board {
+    display: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+}
+
+.trip-text {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: calc(100% - 4px);
+    height: calc(100%);
+    grid-column: auto;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+    border: solid 4px #333;
+    border-radius: 2px;
+}
+
+#placeholder-1 {
+    width: calc(100% - 4px);
+    height: 300px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+#placeholder-2 {
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    padding-bottom: 4px;
+}
+
+#placeholder-3 {
+    width: calc(100% - 4px);
+    height: 100%;
+}
+
+.trip-board-image {
+    max-width: 100%;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    border-radius: 2px;
 }
