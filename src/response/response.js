@@ -334,6 +334,16 @@ const response = [
         category: 'family',
         copy:
             'Shirakawa is a mountain village located in far northern Gifu Prefecture, bordering Ishikawa Prefecture and Toyama Prefecture on the Ryōhaku Mountains.'
+    },
+    {
+        name: 'Empire State Building',
+        image: 'empire-state-building.jpeg',
+        dateFrom: 'Nov 14th 2019',
+        dateTo: 'Nov 15th 2019',
+        guests: 2,
+        category: 'family',
+        copy:
+            'The Empire State Building has an amazing observation deck to look past New York and into Northern New Jersey while admiring all the surrondings that the concrete jungle has to offer.'
     }
 ]
 
