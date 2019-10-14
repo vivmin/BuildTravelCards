@@ -98,6 +98,7 @@ body {
     border: 1px solid lightgray;
     padding: 0.6rem;
     box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
 }
 
 @media only screen and (max-width: 968px) {
@@ -143,6 +144,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.01071em;
     line-height: 1.43;
+    word-break: break-all;
 }
 
 .card-bottom-wrap {
