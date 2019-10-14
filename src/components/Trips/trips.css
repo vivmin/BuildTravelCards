@@ -53,3 +53,11 @@
         width: 150px;
     }
 }
+
+.trips-wrap .card-wrap {
+  max-width: 25vw;
+} 
+
+.trips-wrap .card-wrap p {
+  word-wrap: break-word;
+}
