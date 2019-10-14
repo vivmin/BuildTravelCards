@@ -336,6 +336,17 @@ const response = [
             'Shirakawa is a mountain village located in far northern Gifu Prefecture, bordering Ishikawa Prefecture and Toyama Prefecture on the Ryōhaku Mountains.'
     },
     {
+
+        name: 'Adventure in Ponta Negra - Rio Grande do Norte',
+        image: 'pontanegra.jpg',
+        dateFrom: 'Oct 10th 2019',
+        dateTo: 'Nov 10th 2019',
+        guests: 5,
+        category: 'adventure',
+        copy:
+            'Ponta Negra  is a beach and neighborhood located in the Brazilian city of Natal, the capital of the state of Rio Grande do Norte. Located in the extreme south of the beach is the Morro do Careca, a large dune and a landmark of the city.'
+    },
+  {
         name: 'Empire State Building',
         image: 'empire-state-building.jpeg',
         dateFrom: 'Nov 14th 2019',
@@ -344,7 +355,7 @@ const response = [
         category: 'family',
         copy:
             'The Empire State Building has an amazing observation deck to look past New York and into Northern New Jersey while admiring all the surrondings that the concrete jungle has to offer.'
-    }
+    },
     {
       name: 'A Week In Cancun',
       image: 'Cancun.jpg',
