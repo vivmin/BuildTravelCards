@@ -345,6 +345,16 @@ const response = [
         copy:
             'The Empire State Building has an amazing observation deck to look past New York and into Northern New Jersey while admiring all the surrondings that the concrete jungle has to offer.'
     }
+    {
+      name: 'A Week In Cancun',
+      image: 'Cancun.jpg',
+      dateFrom: 'May 1nd 2020',
+      dateTo: 'May 7th 2020',
+      guests: 2,
+      category: 'adventure',
+      copy:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    }
 ]
 
 export default response
