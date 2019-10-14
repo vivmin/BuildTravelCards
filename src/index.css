@@ -98,7 +98,6 @@ body {
     border: 1px solid lightgray;
     padding: 0.6rem;
     box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    max-width: 320px;
 }
 
 @media only screen and (max-width: 968px) {
@@ -173,7 +172,7 @@ body {
     color: rgba(0, 0, 0, 0.54);
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 740px) {
     .trips-cards-wrap {
         grid-template-columns: none;
     }
@@ -194,6 +193,7 @@ body {
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     font-weight: bold;
+    padding: 10px;
 }
 
 a.nav-option {
@@ -203,14 +203,43 @@ a.nav-option {
 
 .opt-wrapper {
     margin: 0 25px;
+    transition: all 0.2s linear;
 }
 
 .opt-wrapper:hover .nav-option {
     cursor: pointer;
     text-shadow: 2px 2px 20px rgb(42, 143, 129);
-    transform: rotate(-360deg);
+    background: #f44336;
     border-radius: 5px;
-    border: 1px solid rgb(42, 143, 129);
+}
+
+@media only screen and (max-width: 710px) {
+    .opt-wrapper {
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .opt-wrapper {
+        margin: 0 8px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .opt-wrapper {
+        margin: 0 2px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .nav-option {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .nav-option {
+        margin: 0px;
+        font-size: 12px;
+    }
 }
 
 /* Badge */
@@ -229,15 +258,15 @@ a.nav-option {
 /* Button */
 .button {
     border: 2px solid #f44336;
-    height: 5vh;
-    width: 10vw;
+    height: 7vh;
+    width: 12vw;
     text-transform: uppercase;
     text-align: center;
     background: none;
     align-self: center;
     cursor: pointer;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     color: #f44336;
     font-size: 14px;
     font-weight: 400;
@@ -255,4 +284,21 @@ a.nav-option {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 887px) {
+    .button {
+        height: 9vh;
+        width: 14vw;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .button {
+        width: 20vw;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .button {
+        width: 25vw;
+    }
 }

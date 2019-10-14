@@ -11,6 +11,7 @@ const initialNextTripsNum = initialTripsNum + newTripsNum
 
 function Trips() {
     const trips = response
+    const [filterData, setFilterData] = useState('')
     const [shownTrips, setShownTrips] = useState(() => trips.slice(0, initialTripsNum))
     const [nextTripsNum, setNextTripNum] = useState(initialNextTripsNum)
 
@@ -21,16 +22,32 @@ function Trips() {
 
     const showButton = nextTripsNum - newTripsNum < trips.length
 
+    const onTourSearch = e => {
+        setFilterData(e.target.value)
+    }
+
     return (
         <div className="trips-wrap">
             <div className="trips-header">
-                <div className="trips-title">View latest trips</div>
-                <Badge label={nextTripsNum} />
+                <div className="trips-header--text">
+                    <div className="trips-title">View Latest Trips</div>
+                    <Badge label={nextTripsNum} />
+                </div>
+                <input
+                    className="trips-search"
+                    value={filterData}
+                    onChange={e => onTourSearch(e)}
+                    type="text"
+                    placeholder="Search a Trip"
+                />
             </div>
             <div className="trips-cards-wrap">
-                {shownTrips.map((trip, i) => (
-                    <Card key={`${i}:${trip}`} props={trip} />
-                ))}
+                {shownTrips
+                    .filter(trip => trip.name.includes(filterData))
+                    .map((trip, index) => {
+                        console.log(trip.name)
+                        return <Card key={`trip.name${index}`} props={trip} />
+                    })}
             </div>
             {showButton && <Button label="Load More" onClick={loadMoreTrips} />}
         </div>

@@ -265,7 +265,6 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-
         name: 'Japan Adventure',
         image: 'japan.jpg',
         dateFrom: 'Oct 8th 2019',
@@ -302,8 +301,7 @@ const response = [
         dateTo: 'Nov 16th 2019',
         guests: 5,
         category: 'weekend trip',
-        copy:
-            'Mon Cham sits on top of a small mountain'
+        copy: 'Mon Cham sits on top of a small mountain'
     },
     {
         name: 'Trecking in Kasol',
@@ -323,7 +321,7 @@ const response = [
         guests: 4,
         category: 'family',
         copy:
-            'Argentina\'s capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants.'
+            "Argentina's capital, Buenos Aires is the second largest urban area in South America, full of great tourist attractions, museums, restaurants."
     },
     {
         name: 'Weeked in Japan',
