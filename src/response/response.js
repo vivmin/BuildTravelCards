@@ -403,7 +403,7 @@ const response = [
     {
         name: 'New Years Eve in Singapore',
         id: 37,
-        image: 'Singapore.jpg',
+        image: 'singapore.jpg',
         dateFrom: 'December 31st 2019',
         dateTo: 'January 1st 2020',
         guests: 5,
