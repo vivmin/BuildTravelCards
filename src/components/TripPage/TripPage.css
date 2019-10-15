@@ -1,5 +1,5 @@
 .trip-grid-container {
-    margin: 3rem 4rem;
+    margin: 7rem 4rem;
     display: grid;
     grid-template-columns: 1fr;
 }
