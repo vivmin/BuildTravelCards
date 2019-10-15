@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import response from '../../response/response'
 import Badge from '../Badge'
 import Button from '../Button'
@@ -20,11 +20,19 @@ function Trips() {
         setNextTripNum(prevLast => prevLast + newTripsNum)
     }
 
-    const showButton = nextTripsNum - newTripsNum < trips.length
+    const showButton = nextTripsNum - newTripsNum < trips.length && filterData === ''
 
     const onTourSearch = e => {
         setFilterData(e.target.value)
     }
+
+    useEffect(() => {
+        if (filterData !== '') {
+            setShownTrips([...trips])
+        } else {
+            setShownTrips(trips.slice(0, nextTripsNum - initialTripsNum))
+        }
+    }, [filterData, nextTripsNum, trips])
 
     return (
         <div className="trips-wrap">
@@ -43,7 +51,7 @@ function Trips() {
             </div>
             <div className="trips-cards-wrap">
                 {shownTrips
-                    .filter(trip => trip.name.includes(filterData))
+                    .filter(trip => trip.name.toLowerCase().includes(filterData.toLowerCase()))
                     .map(trip => {
                         return <Card key={`trip.name${trip.id}`} trip={trip} />
                     })}
