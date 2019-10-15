@@ -399,6 +399,17 @@ const response = [
         category: 'adventure',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'New Years Eve in Singapore',
+        id: 37,
+        image: 'Singapore.jpg',
+        dateFrom: 'December 31st 2019',
+        dateTo: 'January 1st 2020',
+        guests: 5,
+        category: 'family',
+        copy:
+            'End 2019 with a party you’ll not soon forget! The Marina Bay Singapore Countdown returns, to usher in the new year with fireworks displays lighting up the night sky alongside a host of exciting activities on the streets.'
     }
 ]
 
