@@ -44,9 +44,8 @@ function Trips() {
             <div className="trips-cards-wrap">
                 {shownTrips
                     .filter(trip => trip.name.includes(filterData))
-                    .map((trip, index) => {
-                        console.log(trip.name)
-                        return <Card key={`trip.name${index}`} props={trip} />
+                    .map(trip => {
+                        return <Card key={`trip.name${trip.id}`} trip={trip} />
                     })}
             </div>
             {showButton && <Button label="Load More" onClick={loadMoreTrips} />}

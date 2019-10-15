@@ -1,27 +1,32 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
 
-const Card = ({ props }) => {
-    const { name, dateFrom, dateTo, guests, category, image, copy } = props
+const Card = ({trip}) => {
+    const {name, id, dateFrom, dateTo, guests, category, image, copy} = trip
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
 
     function importImage(loadimage) {
-        let cardImage;
+        let cardImage
         try {
-            cardImage = require(`../../assets/${loadimage}`);
+            cardImage = require(`../../assets/${loadimage}`)
         } catch (err) {
-            cardImage = require(`../../assets/default-image.jpg`);
+            cardImage = require(`../../assets/default-image.jpg`)
         }
-        return cardImage;
+        return cardImage
     }
 
     return (
         <div className="card-wrap">
-            <img className="card-image" src={importImage(image)} alt={getImageName(image)} />
+            <Link to={`/trip/${id}/${name}`}>
+                <img className="card-image" src={importImage(image)} alt={getImageName(image)} />
+            </Link>
             <div className="card-content-wrap">
-                <h2 className="card-name">{name}</h2>
+                <Link to={`/trip/${id}/${name}`}>
+                    <h2 className="card-name">{name}</h2>
+                </Link>
                 <p className="card-date">
                     {dateFrom} - {dateTo}
                 </p>
