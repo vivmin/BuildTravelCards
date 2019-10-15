@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
 
-const Card = ({trip, id}) => {
-    const {name, dateFrom, dateTo, guests, category, image, copy} = trip
+const Card = ({trip}) => {
+    const {name, id, dateFrom, dateTo, guests, category, image, copy} = trip
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
 
