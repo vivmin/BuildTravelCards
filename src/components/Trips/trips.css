@@ -32,6 +32,20 @@
     color: #00000075;
 }
 
+.trips-wrap .card-wrap {
+    max-width: 25vw;
+}
+
+.trips-wrap .card-wrap p {
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 968px) {
+    .trips-wrap .card-wrap {
+        max-width: none;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .trips-header {
         display: flex;
@@ -52,12 +66,4 @@
     .trips-search {
         width: 150px;
     }
-}
-
-.trips-wrap .card-wrap {
-  max-width: 25vw;
-} 
-
-.trips-wrap .card-wrap p {
-  word-wrap: break-word;
 }
