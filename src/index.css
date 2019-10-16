@@ -22,6 +22,9 @@ body {
     margin: 0;
 }
 
+a{
+	text-decoration: none;
+}
 #root {
     width: 100%;
     margin: 7rem 3rem;
@@ -139,6 +142,7 @@ body {
 .card-name {
     font-weight: 400;
     margin: 0;
+    color: black;
 }
 
 .card-date {
