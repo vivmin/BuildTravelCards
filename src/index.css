@@ -56,7 +56,7 @@ a {
 
 .header-shrink {
     padding: 10px 0;
-    height: 40px;
+    height: auto;
 }
 
 .back-link-arrow {
