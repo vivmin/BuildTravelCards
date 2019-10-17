@@ -214,6 +214,7 @@ a {
     transition-duration: 0.3s;
     padding: 10px;
     margin-right: 35px;
+    width: 32px;
 }
 
 #burger-menu:hover {

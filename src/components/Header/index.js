@@ -5,6 +5,11 @@ function Header({location, history}) {
     let [burgerMenuVisible, showBurgerMenu] = useState(false)
     let [dropdownActive, activateDropdown] = useState(false)
 
+    const closeDropdownIcon =
+            'https://upload.wikimedia.org/wikipedia/commons/7/72/VisualEditor_-_Icon_-_Close_-_white.svg',
+        burgerMenuIcon =
+            'https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg'
+
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const scrollPosition = window.pageYOffset
@@ -72,7 +77,7 @@ function Header({location, history}) {
                                 <img
                                     onClick={handleClickBurgerMenu}
                                     id="burger-menu"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg"
+                                    src={!dropdownActive ? burgerMenuIcon : closeDropdownIcon}
                                     alt="Dropdown menu"
                                 />
                             </li>
