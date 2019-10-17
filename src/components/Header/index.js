@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react'
 import {withRouter, Link} from 'react-router-dom'
 
 function Header({location, history}) {
-    let [burgerMenuVisible, showBurgerMenu] = useState(false);
-    let [dropdownActive, activateDropdown] = useState(false); 
+    let [burgerMenuVisible, showBurgerMenu] = useState(false)
+    let [dropdownActive, activateDropdown] = useState(false)
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -26,6 +26,7 @@ function Header({location, history}) {
             }
             if (window.innerWidth > 560) {
                 showBurgerMenu(false)
+                activateDropdown(false)
             }
         })
     }, [burgerMenuVisible, showBurgerMenu])
@@ -56,18 +57,14 @@ function Header({location, history}) {
 
     return (
         <div className="header-container">
-            <div className={
-                burgerMenuVisible
-                ?
-                !dropdownActive
-                ?
-                "header-wrap"
-                :
-                "no-padding-top header-wrap"
-                :
-                "header-wrap"
-            }
-            >
+            <div
+                className={
+                    burgerMenuVisible
+                        ? !dropdownActive
+                            ? 'header-wrap'
+                            : 'no-padding-top header-wrap'
+                        : 'header-wrap'
+                }>
                 <nav>
                     <ul className="nav-bar">
                         {burgerMenuVisible && (
@@ -79,16 +76,13 @@ function Header({location, history}) {
                                 />
                             </li>
                         )}
-                        <ul className={
+                        <ul
+                            className={
                                 burgerMenuVisible
-                                ?
-                                !dropdownActive
-                                ?
-                                "flex-dropdown inner-nav-bar hide"
-                                :
-                                "flex-dropdown inner-nav-bar"
-                                :
-                                "inner-nav-bar"
+                                    ? !dropdownActive
+                                        ? 'flex-dropdown inner-nav-bar hide'
+                                        : 'flex-dropdown inner-nav-bar'
+                                    : 'inner-nav-bar'
                             }>
                             <li className="opt-wrapper">
                                 <option className="nav-option" onClick={handleClickHome}>
