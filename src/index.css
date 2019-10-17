@@ -50,7 +50,7 @@ a {
     display: none;
 }
 
-.no-padding-top.header-wrap{
+.no-padding-top.header-wrap {
     padding-top: 0;
 }
 
@@ -205,11 +205,15 @@ a {
     padding-left: 0;
 }
 
+#burger-menu-list-wrap {
+    text-align: right;
+}
+
 #burger-menu {
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     padding: 10px;
-    margin-left: 10px;
+    margin-right: 35px;
 }
 
 #burger-menu:hover {
@@ -246,7 +250,7 @@ a.nav-option {
 }
 
 .opt-wrapper {
-    margin: 0 25px;
+    margin: 0;
     transition: all 0.2s linear;
 }
 
@@ -255,24 +259,6 @@ a.nav-option {
     text-shadow: 2px 2px 20px rgb(42, 143, 129);
     background: #f44336;
     border-radius: 5px;
-}
-
-@media only screen and (max-width: 710px) {
-    .opt-wrapper {
-        margin: 0 15px;
-    }
-}
-
-@media only screen and (max-width: 610px) {
-    .opt-wrapper {
-        margin: 0 8px;
-    }
-}
-
-@media only screen and (max-width: 530px) {
-    .opt-wrapper {
-        margin: 0 2px;
-    }
 }
 
 /* Badge */

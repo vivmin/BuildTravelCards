@@ -68,7 +68,7 @@ function Header({location, history}) {
                 <nav>
                     <ul className="nav-bar">
                         {burgerMenuVisible && (
-                            <li>
+                            <li id="burger-menu-list-wrap">
                                 <img
                                     onClick={handleClickBurgerMenu}
                                     id="burger-menu"
