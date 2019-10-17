@@ -73,6 +73,7 @@ function Header({location, history}) {
                                     onClick={handleClickBurgerMenu}
                                     id="burger-menu"
                                     src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg"
+                                    alt="Dropdown menu"
                                 />
                             </li>
                         )}
