@@ -66,7 +66,9 @@ function Header({location, history}) {
                 <nav>
                     <ul className="nav-bar">
                         {burgerMenuVisible && (
-                            <li id="burger-menu-list-wrap">
+                            <li
+                                id="burger-menu-list-wrap"
+                                className={dropdownActive ? 'added-padding-bottom' : null}>
                                 <img
                                     onClick={handleClickBurgerMenu}
                                     id="burger-menu"

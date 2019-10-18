@@ -205,6 +205,10 @@ a {
     text-align: right;
 }
 
+#burger-menu-list-wrap.added-padding-bottom {
+    padding-bottom: 20px;
+}
+
 #burger-menu {
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
