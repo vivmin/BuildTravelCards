@@ -62,14 +62,7 @@ function Header({location, history}) {
 
     return (
         <div className="header-container">
-            <div
-                className={
-                    burgerMenuVisible
-                        ? !dropdownActive
-                            ? 'header-wrap'
-                            : 'no-padding-top header-wrap'
-                        : 'header-wrap'
-                }>
+            <div className="header-wrap">
                 <nav>
                     <ul className="nav-bar">
                         {burgerMenuVisible && (

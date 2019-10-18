@@ -50,10 +50,6 @@ a {
     display: none;
 }
 
-.no-padding-top.header-wrap {
-    padding-top: 0;
-}
-
 .header-shrink {
     padding: 10px 0;
     height: auto;
