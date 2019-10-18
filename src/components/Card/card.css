@@ -1,0 +1,8 @@
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-wrap:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+}

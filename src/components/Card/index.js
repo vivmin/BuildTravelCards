@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Guests from '../Guests'
 import getImageName from '../../helpers/getImageName'
+import './card.css'
 
 const Card = ({trip}) => {
     const {name, id, dateFrom, dateTo, guests, category, image, copy} = trip
@@ -24,7 +25,7 @@ const Card = ({trip}) => {
                 <img className="card-image" src={importImage(image)} alt={getImageName(image)} />
             </Link>
             <div className="card-content-wrap">
-                <Link to={`/trip/${id}/${name}`}>
+                <Link className="card-link" to={`/trip/${id}/${name}`}>
                     <h2 className="card-name">{name}</h2>
                 </Link>
                 <p className="card-date">
