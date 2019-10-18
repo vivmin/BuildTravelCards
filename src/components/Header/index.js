@@ -23,6 +23,11 @@ function Header({location, history}) {
             }
         })
 
+        window.addEventListener('click', function closeDropdownIfNotClicked(e) {
+            let burgerMenu = document.getElementById('burger-menu')
+            e.target !== burgerMenu && activateDropdown(false)
+        })
+
         window.innerWidth <= 560 && showBurgerMenu(true)
 
         window.addEventListener('resize', function handleWindowResize() {
