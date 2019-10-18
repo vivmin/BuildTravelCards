@@ -126,11 +126,13 @@ function Header({location, history}) {
                     </ul>
                 </nav>
             </div>
-            {location.pathname.includes('/trip/') && (
-                <Link className="back-link-arrow" to="/">
-                    ⬅
-                </Link>
-            )}
+            <div className="sub-header">
+                {location.pathname.includes('/trip/') && (
+                    <Link className="back-link-arrow" to="/">
+                        ⬅
+                    </Link>
+                )}
+            </div>
         </div>
     )
 }
