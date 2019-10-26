@@ -410,6 +410,17 @@ const response = [
         category: 'family',
         copy:
             'End 2019 with a party you’ll not soon forget! The Marina Bay Singapore Countdown returns, to usher in the new year with fireworks displays lighting up the night sky alongside a host of exciting activities on the streets.'
+    },
+    {
+        name: "King's Day in Amsterdam",
+        id: 38,
+        image: 'amsterdam.jpg',
+        dateFrom: 'April 20th 2020',
+        dateTo: 'April 30th 2020',
+        guests: 2,
+        category: 'week trip',
+        copy:
+            "Enjoy your week in Amsterdam with many museums, the famous Coffeeshops and the king's day."
     }
 ]
 
