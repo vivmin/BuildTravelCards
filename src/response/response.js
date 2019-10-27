@@ -421,6 +421,17 @@ const response = [
         category: 'week trip',
         copy:
             "Enjoy your week in Amsterdam with many museums, the famous Coffeeshops and the king's day."
+    },
+    {
+        name: "Art and diversity in berlin",
+        id: 39,
+        image: 'berlin_1.jpg',
+        dateFrom: 'June 2nd 2020',
+        dateTo: 'June 21st 2020',
+        guests: 5,
+        category: 'family',
+        copy:
+            "Appreciate two weeks with a lot of culture and art in Berlin."
     }
 ]
 
