@@ -432,6 +432,17 @@ const response = [
         category: 'family',
         copy:
             "Appreciate two weeks with a lot of culture and art in Berlin."
+    },
+    {
+        name: "Berlin's Festivals",
+        id: 40,
+        image: 'berlin_2.jpg',
+        dateFrom: 'August 1st 2020',
+        dateTo: 'August 31st 2020',
+        guests: 2,
+        category: 'festivals',
+        copy:
+            "Have a good time in Berlin with many festivals, day 2-4 has the International Berlin Beer Festival and August 31st has a festival called Long Night of Museums with special schedules."
     }
 ]
 
